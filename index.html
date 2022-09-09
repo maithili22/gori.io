@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" href="laptop.css">
+  <title>Spotify</title>
+
+
+</head>
+<body>
+
+  <header>
+   <span  class="spo img">
+
+   <img src="data:image/png;base64,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" >
+  </span>
+
+  Spotify
+  <span class="men">
+    <!-- <span  class=" menu img "> -->
+      <!-- <span class="men">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAAC+CAMAAAD6ObEsAAAAdVBMVEX///8AAADu7u5ISEjl5eU0NDQhISFnZ2f8/Pz09PScnJzX19f39/cwMDDg4OAkJCSRkZGEhIRRUVHQ0NAXFxfIyMirq6vBwcGfn58LCwtYWFi4uLiHh4enp6cqKio6Ojpubm56enobGxt8fHxgYGBERERra2trKd/dAAAEC0lEQVR4nO3d23KiQBSF4Q0SRRBEQfB8Ht//EUdOS0BSk5maSlPZ67vKZftXRGiaRqyG8T3KbNHB9dPFNml+emn87fmu6QF+r5nv9aUYR6YHZkYUdFN8+KbHZEq4bKe4zUyPyCCvmeKh7CDRsX6luOkuIZLWKY5T00Mx7lymSNQeMV/sUZHiZnocQ7ArUpgexTAsnykWpgcxDJklGx4pCvZIlvz5KF2E349KKgfTQxgKX2LTQxgOLVM1RP8kND2A4eBhs+I+f06pEPMUq+bJVvOsZtNFLF6OFcJALKX3P7p2+dQNvyG5cZ6C/xZST+hxmvd5JXYqJ/9Ppgdi3qS+JXTWfkto/bpRqPw869C8fXxWPG3htm4fP48Xao+d0/vbqpu9ysv16QGLkBoLkIKLuhhTb9S/FsuyrtFu5Ye2Bn6cHZatD99OkZufRhrMr90P/p5CLaYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApgCmAKYApoBuis04+FDhD8vS5rd05ZheS/lN7HC3fmw+SXHa2cqeAJg5XtCTItD5wKm7fttDb6l26b/dWe4eKftqtKTNFHvTozGr8WjMRfP/RG5Xp7jySdNFmSLhvg0yLffQU/4MXWnFPfQg30OPz2EXMkvG6h4Y62eP5K79h7R2Ec/0EIYilZXpIQyFL9xjkoi+gr+lwDOsissNaWsr4d7uFU/0zu92PMTixE0hPIp1Nz2IYUjzqRueeueKPfTOpkcxBOtyxptHC3GCMsWGk/9L3hKqeLxRWNm3bh8r/o64ERcVlJzOi/ksa+6pPGC43rhnAVLgOcrOtqZO9NG7Futpu05XoaPDaudtWx/+bd3m5jrWYdP95FzCCkwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAFMAUwBTAHdFMlH8eLTyY9y73u366m7iV47xSWLy9f9ml5R+Z/1vfHXibPo9EmKrcKt48JL8p5inqpc2CzxpJtiomxNc8Nh00qhc617ZdVMofxp7CxBCvX7QWEPvaXpkZh3LlMcuW+D2Kcixdr0OIZgxz30YP5MwX+KQmpJ4psexDA4AffQq12EG49WUlF4OdovFO7YAHqvSIm+QMv7QL6Ah03geXfF5h56tVSW/DUtnWXDy7GCcxK+/aCUcuqmluQpeOB8ispXpfBoIf64nPxPftqN8782O9a3hLTvoefeXjcKH7pPLlp76E0Uf0fcfWd9Rab1SxL+elt1M9F5uR4d+9ZijTJld09nvte/FuspeOzTWMVphhvH68U2aX743xZXgFdh/HmSAAAAAElFTkSuQmCC" alt="menu">
+     <pre> Premium         Support         Download</pre> -->
+     <nav>
+      Premium 
+      Support
+      Download
+    </nav>
+    <!-- </span> -->
+    </span>
+
+  </header>
+
+ <main>
+
+   <span class="song img"> 
+     <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2022/03/FCB_Hero_WithLogos_1x1-1.jpg"  alt="aaa">
+   </span>
+
+ <span class="your">
+  <ul>
+  <li>Your music.</li>
+  <li>Your podcasts.</li>
+  <li>Your home.</li> 
+</ul>
+</span> 
+
+  <!-- <p  class="sign">
+Sign up
+ </p> -->
+
+ <div class="sign">
+  <form >
+
+    <div class="txt">
+      <label >What should  we call you?</label>
+
+        <input type="text" placeholder="Enter a profile name">
+      </div>
+
+     <div class="txt">
+       <label >Email address</label> 
+       <input type="text" placeholder="Enter a Email address">
+      </div>
+      <div class="txt">
+      <label >Create a password </label> 
+<input type="text" placeholder="Create a password">
+</div>
+</form>
+
+  <div class="terms">
+    <p>
+    By clicking on sign-up, you agre to Spotify's
+    <span class="link">Terms amd Conditions of Use.</span> </p>
+   <p> To learn more about hot Spotify collects, uses, shares and protects your personal data, please see <span class="link">
+    Spotify's Privacy Policy.</span>  </p>
+  </div>
+  <div class="pass">
+<input type="submit" value="Sign up">
+</div>
+  <div class="log">Have a account?<span class="link">Log in.</span> </div>
+   </div>
+
+
+
+</main>
+
+ <footer >
+  <div class="foot">
+  <span class="spo img">
+
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAaVBMVEX///8AAACrq6v7+/vz8/P4+PjGxsawsLDp6enAwMDt7e2JiYmYmJilpaXg4OCgoKAYGBjPz89QUFBpaWk5OTnV1dV0dHQrKyswMDBeXl5JSUlubm5DQ0ORkZFZWVm4uLgfHx8LCwuAgICvgPo1AAAGNUlEQVRogb2b6XaDIBCFUXFXjLsmLonv/5DVNGkVGASDuT+bUz9BGGYDGUf0KPIqjJLYNM04icIqLx6HnoNU/6G7RY5nW2gry/ac6NadSm/ykWAEC5Mxb86hXyonEJDfCpzqop2e+fRkw7L8TCu9lxn1ZgZ6XfQ6sRXZi+yk1kCvE9E6Ewnv8/fooeqcrxWEH9EL8gF7ESmO080P2YvMg/TW0wBHyGuP0BMt7EWJMv3iaIMj5EDWD6AXemb9LQ9YfHx6rpW9KJenh9rhCHG3Po9+BpyP59CjU+AIRTL0c0a+iB09Q+9PgyPEHLs0vToRjlAlpnenwhHqRPTLJ+epjIKLgJ6eDEcohenx6XCEYoh++wIcoRuf/jj7o/8qeHDp41fgCI08+vVLcISuHLreE10kj6WfdbbwFNH0Ri5msDEO3sL4SIyzCDcUXeg8z9F56S5Jgjbriqb+VVN0Wb4kEcaSMPH8jswtvQCHUZq9RExet1Piy4dcdrGhc3dbaU73Xe5G13CUi37GNb1mZs7zc0XyS497a5a7C8KqV3TawGPVQVPqKmdnA8crOvWuWDn9w+qSu6J1YP/TaYeG73yr6+bD+OqPTh3rgSb4oh5ahemb3lA/uBrpcygMRITNi067sfHeAxXVOTxj1L/oJfV3YcB/SBlnAZS/9I5+M6KdPvPpISKre9In5rXYeLdow970Uw/bq82JMUl9sw9zqQ3KYKYnnV0VZOX3Fnno750ilh04ydTuWCg6LHcWOs+HL39TnV0lzgpTCkq3uj5gPHWYzL49MlreuKw06iXMNUfEr6A5yChGO9NPiFnLiJulbKhZDmf6Oa6sF7FL90LZvXGmf5qOBJVWD/HYyUw/mgSWkBdtvKKW+hkbqFB0ydSEk9USpLe2VSD55BguUzeJoj6c1UdR4jqlROxl/2Uq2eRnjlhLx8hz4gncx0U1O7XCr2c/8zV3jqmfkDiKCNK4vUPg1WpuJtEr4NQnvA8cITgZbJG4ValvFblJ1OxTglzoJzIokN+6TqXCKnYR5Hp5+yi+6pA5TCH5CErVXPc5sBK5gDiF6IeH/lIuk4AC6eWH9HkJcL25b9H53pwc3eY9rrhNYZKYrmvGUThJOFRX8fynCKq/rN3q5ta7fGOCyRhNogXaio5QB4HH+/T770Po7+YGbBJX4CsIalsjgvOTzjRUvidrPDAxgSwDaM9mts5sUeBMnNrXBTS/kcwZpySfDYDB0t6E9JcDcEx9AXBpVeiUFKU/SI39iuCv8oks57/14g4R7AsyzspM++/5B3dVMPu0auVej5Qv7cdYkRg+B3JIqgSGSz8OBzY+uGdT4sMBl+0motRRP9PFTi0mTjTU4v6dezGHuRJjoJXP9Br+8CRpZdu3LtmUKsYlQb3E76AjpJpBaar9I32l8pk9gGztkSP+3ssXGaInPQN+3WuWAbTrU7yVPel0YPuWoFdErMKV+QBLembJmAFHIGfsl7rouuyprivgPE0n0ZG25CQXOmDqV9/9cS/yfnRK8p+0sjEmZTr2LX87Drs+7fVFhxIIL+cqj/lR2FuBE/M+0s7h+UwKPunQqg/iyJHcxGXPuFbianr0RzfkCDvyesrJFS5+458uu0l2ZDsbx0Z0gvgr+qCHPotUcvRhRYetrbq8SWLmX/vpRafTSR8puO0+s93QNfc8pG3diXKg7/6HN13fl/9VINypA0X/Wu1/0V/9/4/OliNPk1Uz9BP7q2j9H1+rvovT0sWUVmWfFf36nbm3rlz6l5of1m12m16j8xudqFanDf1+fr/Pts1r2+Wl2+aw2qZfqf463bkEWpMhomtp3IZFxydMX6XODmZaDg1je0rPwzNwXj+tJjeLkc+ieL3E54yeHTnQR30GngcHesjh9OJR8Xs5gP553cctEA9DdwcGnQVSDBWYwHsTd31OdgkGu4I7I7q6awUNNKL7MoOOVktPVNYT3xX63N/gtOxL043is63viC8q7d8Ry4+vvnK3V03iflx1zNkldKv+Mbph3NTHX972Hyt9L7KJVawPU534kG4Yj9yX8zkDP3/IPlTlPuxyHVZcybAVL8Sq3gXOJpff82XZxJ1kb6IepT/V3cLEXCsJ1W8hL/oBEE5PttYaU+YAAAAASUVORK5CYII=" >
+  </span>
+
+    Spotify
+  </div>
+  <div class="company">
+    <div class="head">COMPANY</div>
+    <div class="list">
+      <ul>
+     <li>About</li>
+     <li>Jobs</li>
+     <li>For the records</li>
+     </ul>
+
+    </div>
+  </div>
+
+    <div class="useful">
+      <div class="head">USEFUL LINKS</div>
+      <div class="list">
+        <ul>
+       <li>Support</li>
+       <li>Web Player</li>
+       <li>Free Mobile Apps</li>
+       </ul>
+      </div>
+      </div>
+  <!-- </div> -->
+ </footer>
+
+</div>
+</body>
+</html>
